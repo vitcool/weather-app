@@ -1,28 +1,40 @@
-.App {
+.main-view-component {
+  display: block;
+}
+
+.day-data-component {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.natural-phenomenon {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+img {
+  width: 75px;
+  height: 75px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.data {
+  text-align: center;
 }
 
-.App-title {
-  font-size: 1.5em;
+.temperatures {
+  display: block;
 }
 
-.App-intro {
-  font-size: large;
+.minimal-temperature {
+  color: blue;
+  font-size: 24px;
+  margin-left: 40px;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.maximal-temperature {
+  color: red;
+  font-size: 24px;
+  float: right;
+  margin-right: 40px;
 }

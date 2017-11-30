@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      Hello, I am app component
         <MainView data={data}/>
       </div>
     );

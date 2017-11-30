@@ -8,13 +8,13 @@ export var data = [
     {
         data: "30.11.2017",
         maxTemperature: 4,
-        minTemperature: 2,
+        minTemperature: -2,
         weatherPhenomenon: "Sunny"
     },
     {
         data: "31.11.2017",
         maxTemperature: 8,
-        minTemperature: 7,
+        minTemperature: 3,
         weatherPhenomenon: "Self-Cloudy"
     }
 ]
